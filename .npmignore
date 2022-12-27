@@ -1,3 +1,4 @@
+# 官方插件是打包后放到lib下
 # src
 test
 *.log

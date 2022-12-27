@@ -5,8 +5,7 @@
  */
 import { declare } from '@babel/helper-plugin-utils';
 
-export default declare((api) => {
-
+export default declare(({ types: t }, options) => {
   return {
     name: 'log-shiny',
     visitor: {
