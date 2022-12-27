@@ -11,7 +11,10 @@ export default function ({ types: t }, options) {
         const { node } = path;
         if (t.isMemberExpression(node.callee)) {
           if (node.callee.object.name === 'console') {
-            node.arguments.unshift(t.Identifier("'⭐️⭐️⭐️ ==>'"));
+            const defaultPrefix = '⭐️⭐️⭐️ ===>';
+            const { prefix } = options;
+            const prefixNode = t.stringLiteral(prefix || defaultPrefix);
+            node.arguments.unshift(prefixNode);
           }
         }
       }
