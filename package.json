@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-log-shiny",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "make console.log conspicuous",
   "main": "./src/index.js",
   "repository": {
