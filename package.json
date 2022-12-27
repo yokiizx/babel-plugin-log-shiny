@@ -34,7 +34,7 @@
     ".": "./src/index.js",
     "./package.json": "./package.json"
   },
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.20.2"
   }
