@@ -1,0 +1,38 @@
+{
+  "name": "@babel/plugin-log-shiny",
+  "version": "1.0.0",
+  "description": "make console.log conspicuous",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokiizx/babel-plugin-log-shiny.git"
+  },
+  "author": "yokiizx",
+  "license": "MIT",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/yokiizx/babel-plugin-log-shiny/issues"
+  },
+  "homepage": "https://github.com/yokiizx/babel-plugin-log-shiny#readme",
+  "conditions": {
+    "BABEL_8_BREAKING": [
+      null,
+      {
+        "exports": null
+      }
+    ],
+    "USE_ESM": [
+      {
+        "type": "module"
+      },
+      null
+    ]
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "type": "commonjs"
+}

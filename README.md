@@ -1,4 +1,5 @@
 # babel-plugin-log-shiny
+
 A babel plugin that helps make console.log conspicuous
 
 ## install
@@ -15,7 +16,7 @@ npm i @babel/plugin-log-shiny -D
     [
       "@babel/plugin-log-shiny",
       {
-        "icon": "whatever you want~ like 🔥，default is ⭐️"
+        "prefix": "whatever you want~ like 🔥"
       }
     ]
   ]
