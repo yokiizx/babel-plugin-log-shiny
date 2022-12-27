@@ -1,5 +1,5 @@
 {
-  "name": "@babel/plugin-log-shiny",
+  "name": "@yokiizx/plugin-log-shiny",
   "version": "1.0.0",
   "description": "make console.log conspicuous",
   "main": "./src/index.js",
