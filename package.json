@@ -2,7 +2,7 @@
   "name": "babel-plugin-log-shiny",
   "version": "1.0.1",
   "description": "make console.log conspicuous",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yokiizx/babel-plugin-log-shiny.git"
@@ -31,7 +31,7 @@
     ]
   },
   "exports": {
-    ".": "./src/index.js",
+    ".": "./lib/index.js",
     "./package.json": "./package.json"
   },
   "type": "commonjs",
